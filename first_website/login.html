@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "icon" href = "img/icon.png " type = "image/x-icon">
+    <title>FrontEnd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/login.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo_3.png">
+        <span class="fa" ><a href="https://www.instagram.com/fakkreddine/" ><img src="img/inta.png"></a>
+                <a href="https://www.facebook.com/hajmbarek.fakkreddine"><img src="img/facebook.png"/></a>
+                <a href="https://github.com/orgs/fakkreddine-hadj-mbarek/"><img src="img/git.png"></a>
+    </span>
+            
+            <nav>
+        <img src="img/logo2.png">
+    
+        <nav>
+                <a  class="home"href="home.html">home</a>
+                <a href="try.html">try</a>
+                <a href="signup.html">signup</a>
+
+        </nav>
+    </nav>
+    <div class="back">
+
+
+
+
+
+        
+        <div class="login">
+            <img src="img/logo2.png">
+           
+            <script src="js.js"></script>
+            
+                
+            <form method="GET"   name="form" >
+               
+            <span class="span">
+                
+                </span>
+               
+                <p>login to your account</p>
+                <div class="con">
+                <div class="name"><input type="text" placeholder="your full name" onchange="fn1();"></div>
+                <div class="email"><input type="email" placeholder="your email"onchange="fn1();"  ></div>
+                <div class="pass"><input type="password" placeholder="your password" id="pass"onchange="fn1();" ></div>
+                <button  class="but"   id="btn" onclick="fn();"  >submit  </button>
+                <a href="">Forgot password?</a>
+            
+            </span>
+            
+        </form>
+        <div class="conf">
+            <h1 class="dot1">.</h1>
+            <h1 class="dot2">.</h1>
+            <h1 class="dot3">.</h1>
+            <h1 class="dot4">.</h1>
+        
+            </div>
+            <img  class="confimg" src="img/conf.png">    
+           
+         
+         </div>
+         
+<script>
+        function fn() {
+            event.preventDefault();
+            const element = document.querySelector('.conf');
+            const element2 = document.querySelector('.confimg');
+            const element3 = document.querySelector('.span');
+            element.style.display='none';
+            element2.style.display = 'block';
+          
+
+        }
+        function fn1() {
+            event.preventDefault();
+            const element = document.querySelector('.conf');
+            const element2 = document.querySelector('.confimg');
+            element.style.display='block'
+            element2.style.display = 'none';
+        }
+        
+
+
+        </script>
+
+        </div>
+
+
+
+    </div>
+      
+
+
+    </header>
+    <footer>
+        <h5> United States Council for International Business. All Rights Reserved. Privacy Policy <span class="foot">Copyright 2022 ©</span> </h5>
+    
+    </footer>
+    
+</body>
+</html>
